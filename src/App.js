@@ -1,10 +1,11 @@
 import './App.css';
-import HandleEvent from './components/HandleEvent'
+// import HandleEvent from './components/HandleEvent'
+import List from './components/List'
 function App() {
     return (
         <div className="App">
             <h1>Hello Reza</h1>
-            <HandleEvent/>
+            <List/>
         </div>
     );
 }
