@@ -16,3 +16,10 @@ function getDisplayName(WrappedComponent) {
   return WrappedComponent.displayName || WrappedComponent.name || 'Component';
 }
 ```
+
+What can I do with HOCs?
+At a high level HOC enables you to:
+Code reuse, logic and bootstrap abstraction
+Render Highjacking
+State abstraction and manipulation
+Props manipulation
